@@ -22,7 +22,7 @@ function drawPuntini(n=120){
   let starX = (i*41) % width + (i%8)*4;
   let starY = (i*70) % height + (1%7);
 
-  let randomTransparency = random(150, 255);
+  let randomTransparency = random(100, 200);
   let randomSize = random(2.8, 5.8);
 
   drawPunto(i, starX, starY, randomTransparency, randomSize);
